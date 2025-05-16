@@ -44,6 +44,7 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: SIQA_KVV_IBM
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
@@ -54,6 +55,8 @@ services:
   - name: SIQA_1605_AZPPProject
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: SSL_JDBC_Test
     version: "1.0"
@@ -85,6 +88,8 @@ services:
     version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
   - name: SSL_JDBC_Test
     version: "1.0"
   - name: DADA_GlobalVariable1
@@ -106,6 +111,8 @@ services:
   - name: SIQA_1605_AZPPProject
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: SSL_JDBC_Test
     version: "1.0"
@@ -131,3 +138,51 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.siqa_1605_azpp.integrations:refdaf
+  packages:
+  - name: SIQA_1605_AZPPProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.64
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+- serviceName: project.siqa_1605_azpp.referencedata:ref1
+  packages:
+  - name: SIQA_1605_AZPPProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.64
+  - name: SIQACloudStreamsTests
+    version: "1.0"
